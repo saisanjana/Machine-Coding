@@ -1,0 +1,27 @@
+.game-board{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.row > div {
+    border: 1px solid black;
+    margin:5px;
+    padding: 35px;
+    position: relative;
+}
+.row > div > span{
+    font-size: 3em;
+    top: 10%;
+    left: 25%;
+    position: absolute;
+    text-transform: uppercase;
+}
