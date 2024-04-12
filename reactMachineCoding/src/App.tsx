@@ -1,8 +1,11 @@
 // import CustomSwitchCase, { CustomCase, DefaultCase } from "./Components/CustomSwitchCase";
-import InfiniteScroll from "./Components/InfiniteScroll";
-import TwoStepLoginForm from "./Components/TwoStepLoginForm";
+// import InfiniteScroll from "./Components/InfiniteScroll";
+// import TwoStepLoginForm from "./Components/TwoStepLoginForm";
 // import MultiStepper from "./Components/MultiStepper";
 // import Sample from "./Components/Sample";
+// import TodoList from "./Components/TodoList";
+// import Pagination from "./Components/pagination";
+import SlideShow from "./Components/slideShow";
 import { FeatureProvider } from "./Contexts/Features"
 
 const App = () => {
@@ -20,7 +23,10 @@ const App = () => {
 
       {/* </CustomSwitchCase> */}
       {/* <InfiniteScroll/> */}
-      <TwoStepLoginForm/>
+      {/* <TwoStepLoginForm/> */}
+      {/* <TodoList/> */}
+      {/* <Pagination/> */}
+      <SlideShow/>
     </FeatureProvider>
     
   )
